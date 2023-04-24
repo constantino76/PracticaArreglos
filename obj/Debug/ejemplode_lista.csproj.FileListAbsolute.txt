@@ -1,0 +1,8 @@
+C:\Cursos\SQL_C#\ejemplode_lista\bin\Debug\ejemplode_lista.exe.config
+C:\Cursos\SQL_C#\ejemplode_lista\bin\Debug\ejemplode_lista.exe
+C:\Cursos\SQL_C#\ejemplode_lista\bin\Debug\ejemplode_lista.pdb
+C:\Cursos\SQL_C#\ejemplode_lista\obj\Debug\ejemplode_lista.csproj.AssemblyReference.cache
+C:\Cursos\SQL_C#\ejemplode_lista\obj\Debug\ejemplode_lista.csproj.SuggestedBindingRedirects.cache
+C:\Cursos\SQL_C#\ejemplode_lista\obj\Debug\ejemplode_lista.csproj.CoreCompileInputs.cache
+C:\Cursos\SQL_C#\ejemplode_lista\obj\Debug\ejemplode_lista.exe
+C:\Cursos\SQL_C#\ejemplode_lista\obj\Debug\ejemplode_lista.pdb
