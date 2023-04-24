@@ -6,9 +6,6 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ejemplode_lista", "ejemplode_lista.csproj", "{9D534AB4-6F32-46E2-83F8-F2945CBD4431}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución", "Elementos de la solución", "{00E8CAC7-40D9-4E39-9A77-35863B42071D}"
-	ProjectSection(SolutionItems) = preProject
-		Ordenar.cs = Ordenar.cs
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
