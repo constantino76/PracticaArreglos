@@ -12,6 +12,7 @@ namespace ejemplode_lista
         {
             int[,] arreglo ={ {8, 12, 11, 34, 56, 67 }, { 9,3, 2, 1, 22, 78} };
             Imprimirarreglo(arreglo);
+            Console.ReadLine(); 
         }
 
         public static void Imprimirarreglo(int[,]arreglo) {
