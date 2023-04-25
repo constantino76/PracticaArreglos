@@ -9,7 +9,7 @@ public class Ordenar
 	
 	}
 	public void convertirarreglo(int[,] arreglo) {
-
+		        
 		int[] ar = new int[arreglo.Length];
 		int j = 0;
 		foreach (int elemento in arreglo)
