@@ -8,35 +8,55 @@ public class Ordenar
 
 	
 	}
+	public void convertirarreglo(int[,] arreglo) {
 
+		int[] ar = new int[arreglo.Length];
+		int j = 0;
+		foreach (int elemento in arreglo)
+        {
+            ar[j]=elemento;
+			j++;
+		
+		}
+		int []a=Ordenaarray(ar);
+		llenarArreglo(arreglo, a);
+	}
 
-	public int[,] Ordenaarray(int[,] arr)
+	public int[] Ordenaarray(int[] arr)
 	{
 
 
 
-		int aux = arr[0, 0];
-		for (int pasada = 0; pasada < arr.Length/2; pasada++) { 
-			for (int j = 0; j < arr.GetLength(0); j++)
+		int aux= arr[0];
+		     for(int pasada=0;pasada <arr.Length;pasada++)
+			for (int j = 1; j < arr.Length; j++)
 			{
-			
-				for (int i = 1; i < arr.GetLength(1); i++)
-				{
-					//////int[,] arreglo = { { 8, 12, 11, 34, 56, 67 }, { 9, 3, 2, 1, 22, 78 } };
-					if (arr[j,i-1]>arr[j,i])
-					{      aux = arr[j, i];	
-						arr[j, i] = arr[j, i-1];
-						arr[j, i - 1] = aux;
-						
-					}
-					
 
-				}
+			if (arr[j-1] >arr[j]) {
+				aux=arr[j];
+				arr[j] = arr[j - 1];
+				arr[j - 1] =aux;
+				
+              
+			}
 
 
 			}
-	}
+	
 		return arr;
 
+	}
+
+	public void llenarArreglo(int[,] m, int[] a) {
+	int k=0;
+		for (int j =0;j<m.GetLength(0);j++ ) {
+			for (int i=0;i<m.GetLength(1);i++) {
+				m[j, i] = a[k];
+				k++;
+			}
+		
+		
+		}
+	
 	}
 }

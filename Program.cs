@@ -9,7 +9,7 @@ namespace ejemplode_lista
     {
         static void Main(string[] args)
         {
-            int[,] arreglo ={ {8, 12, 11, 34, 56, 67 }, { 9,3, 2, 1, 22, 78} };
+            int[,] arreglo ={ {8, 12, 11, 34, -9, 67 }, { 9,3, 2, 1, 22, 78} };
             Imprimirarreglo(arreglo);
             Console.ReadLine(); 
         }
@@ -22,7 +22,7 @@ namespace ejemplode_lista
             
             }
             Ordenar ordenar = new Ordenar();
-            ordenar.Ordenaarray(arreglo);
+            ordenar.convertirarreglo(arreglo);
         
         }
     }
